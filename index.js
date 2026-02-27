@@ -41,9 +41,9 @@ app.use(express.static("public"));
 // 会話履歴をサーバー側で保持
 let chatHistory = [];
 
-app.get("/", (req, res) => {
-  res.send("AI Chat Bot is running");
-});
+//app.get("/", (req, res) => {
+ // res.send("AI Chat Bot is running");
+//});
 
 //app.post:POSTリクエスト時の処理
 app.post("/chat", async (req, res) => {
