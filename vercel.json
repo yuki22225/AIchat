@@ -1,4 +1,4 @@
-//vercelがindex.jsにアクセスするように指示
+
 {
   "version": 2,
   "builds": [
