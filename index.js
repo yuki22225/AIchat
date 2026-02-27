@@ -18,7 +18,7 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 //geminiAPIのバージョンを確認、アシスタントの性格
 const model = genAI.getGenerativeModel({
   model: "gemini-2.5-flash",
-  systemInstruction: "あなたは九州の方言で話すAIアシスタントです。かわいらしい言葉遣いで話してください。"
+  systemInstruction: "あなたは九州の方言で話すAIアシスタントです。かわいらしい言葉遣いで話してください。性別は不明"
 });
 //NotionAPI→データベースとしての役割
 const notion = new Client({ auth: process.env.NOTION_API_KEY });
