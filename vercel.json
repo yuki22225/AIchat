@@ -13,11 +13,11 @@
   "routes": [
     {
       "src": "/chat",
-      "dest": "index.js"
+      "dest": "/index.js"
     },
     {
       "src": "/reset",
-      "dest": "index.js"
+      "dest": "/index.js"
     },
     {
       "src": "/(.*)",
